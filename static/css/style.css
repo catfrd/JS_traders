@@ -24,7 +24,7 @@
 /* Home BG Static (default) */
 
 #home {
-  background: url("../images/2.png");
+  background: url("../images/slides/bg.png");
 }
 
 
@@ -32,19 +32,22 @@
 /* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-  background: url("../images/slides/2.png");
+  background: url("../images/slides/bg.png");
+  position: relative;
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/slides/4.png");
+  background: url("../images/slides/bg.png");
+  position: relative;
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/slides/3.png");
+  background: url("../images/slides/bg.png");
+  position: relative;
 }
 
 
 /* Home BG Slider */
 
-#home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
+/* #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
   background: url("../images/slides/2.png");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
@@ -57,7 +60,7 @@
 #home-bg-slider .display-table-cell {
   position: relative;
   z-index: 20;
-}
+} */
 
 
 
@@ -131,6 +134,31 @@
 
 
 
+/* worker intro */
+
+.workers {
+  height:300px; 
+  width:fit-content;
+  border-radius: 400px;
+  margin: 45px;
+  position: relative;
+}
+
+.name{
+  color: #fff;
+  margin: 45px; 
+  position: relative;
+  text-shadow: 2px 2px #626262;
+}
+
+.num{
+  color:#fff;
+  margin:40px;
+  position: relative;
+  
+}
+
+
 /*
   Section - Team
   --------------
@@ -153,15 +181,6 @@
 
 
 
-/*
-  Section - Venue
-  ---------------
-*/
-
-#venue {
-  background-image: url("../images/bg-venue.jpg");
-  background-position: center bottom !important;
-}
 
 
 
@@ -250,82 +269,7 @@
 
 
 
-/*
-  Milestones
-  ----------
-*/
 
-#milestones {
-  background-image: url("../images/bg-milestones.jpg");
-}
-
-
-
-/*
-  Section - FAQ
-  -------------
-*/
-
-/* Accordions */
-
-.panel-group .panel {
-  border: 1px solid #dfdfdf;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  margin-bottom: 17px;
-}
-.panel-group .panel:last-child {
-  margin-bottom: 0;
-}
-.panel-group .panel.active .panel-heading {
-  background-color: #989898;
-}
-.panel-group .panel.active .panel-heading .panel-title a {
-  color: #ffffff;
-}
-.panel-group .panel.active .panel-heading .panel-title a:before {
-  color: #ffffff;
-}
-.panel-group .panel + .panel {
-  margin-top: 0;
-}
-.panel-group .panel-heading + .panel-collapse > .panel-body {
-  border-top: 1px solid #dfdfdf;
-}
-.panel-heading {
-  background-color: transparent;
-  border-radius: 0;
-  padding: 0;
-}
-.panel-title a {
-  color: #272727;
-  display: block;
-  padding: 14px 18px 14px 38px;
-  position: relative;
-}
-.panel-title a:before {
-  color: #989898;
-  content: '\f107';
-  display: block;
-  font-family: "FontAwesome", sans-serif;
-  font-size: 14px;
-  left: 0;
-  padding: 14px 18px;
-  position: absolute;
-  top: 0;
-}
-.panel-title a.collapsed:before {
-  content: '\f105';
-}
-.panel-title a span {
-  margin-right: 4px;
-}
-.panel-body {
-  padding: 18px 20px 8px;
-}
-.panel-body p {
-  max-width: 600px;
-}
 
 
 /* Nav Stacked */
@@ -345,113 +289,10 @@
 
 
 
-/*
-  Section - Ticket
-*/
-
-/* Testimonial */
-
-.testimonial {
-  max-width: 400px;
-}
-.testimonial-avatar {
-  margin-top: 25px;
-}
-.testimonial-avatar img {
-  left: 0;
-  max-height: 75px;
-  position: absolute;
-  top: 0;
-}
-.testimonial-avatar-label {
-  height: 75px;
-  padding-left: 95px;
-}
-
-
-/* Pricing */
-
-.pricing.box-shadow-yes {
-  -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
-}
-.pricing.box-shadow-yes:hover {
-  -webkit-box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
-}
-.pricing-dollar {
-  bottom: 28px;
-}
-.pricing ul > li {
-  position: relative;
-  margin-top: 10px;
-}
-.pricing ul > li.check-mark {
-  padding-left: 32px;
-}
-.pricing ul > li.check-mark:before {
-  background-color: #989898;
-  border-radius: 50%;
-  color: #ffffff;
-  content: '\2713';
-  display: block;
-  font-size: 11px;
-  left: 0;
-  line-height: 20px;
-  height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 1px;
-  width: 18px;
-}
-.pricing ul > li:first-child {
-  margin-top: 0;
-}
 
 
 
-/*
-  Section - Register
-  ------------------
-*/
 
-#register {
-  background-image: url("../images/bg-register.jpg");
-}
-#register .form-wrapper {
-  background: rgba(0, 0, 0, 0.8);
-}
-#register textarea {
-  height: 120px;
-}
-
-
-
-/*
-  Section - Contact
-  -----------------
-*/
-
-#form-contact textarea {
-  height: 120px;
-  margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  #form-contact button {
-    margin-top: 20px;
-  }
-}
-
-
-@media (max-width: 991px) {
-  .contact-address {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 1px solid #dfdfdf;
-  }
-}
 
 
 /* Google map */
@@ -487,27 +328,6 @@
 }
 
 
-/* Forms */
-
-.form {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  border: 0;
-}
-.form iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-#volunteer-form {
-  padding-bottom: 3000px;    /* height */
-}
-#nominate-speaker-form {
-  padding-bottom: 1950px;    /* height */
-}
 
 
 
@@ -536,61 +356,6 @@
 }
 
 
-
-/*
-  Countdown timer
-  ---------------
-*/
-
-.countdown-timer {
-  display: flex;
-  justify-content: center;
-}
-.countdown-timer div {
-  display: flex;
-  flex-direction: column;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.countdown-timer .value {
-  font-family: Roboto, sans-serif;
-  font-size: 36px;
-  font-weight: 800;
-  color: white;
-  align-self: center;
-}
-.countdown-timer .label {
-  font-family: Catamaran, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.75);
-  padding-top: 8px;
-  align-self: center;
-}
-@media (min-width:420px) {
-  .countdown-timer .value {
-    font-size: 48px;
-  }
-  .countdown-timer .label {
-    padding-top: 16px;
-  }
-}
-@media (min-width:600px) {
-  .countdown-timer .value {
-    font-size: 56px;
-  }
-  .countdown-timer .label {
-    font-size: 18px;
-  }
-}
-@media (min-width:900px) {
-  .countdown-timer .value {
-    font-size: 64px;
-  }
-  .countdown-timer .label {
-    padding-top: 24px;
-  }
-}
 
 
 
