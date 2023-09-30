@@ -1843,10 +1843,11 @@ h6 {
   z-index: 2000
 }
 
+/* nav bar color */
 .navbar,
 .navbar.navbar-white.shrink .navbar-nav>li.active>a:before,
 .navbar.shrink {
-  background-color:#454343;
+  background-color:gray;
 }
 
 .navbar .navbar-nav>li.active>a:before,
@@ -1895,14 +1896,15 @@ h6 {
 
 .navbar .navbar-brand img {
   display: inline-block;
-  max-height: 43px;
+  max-height: 50px;
   position: absolute;
   top: 18px;
   left: auto
 }
 
 .navbar .navbar-brand img.logo-navbar-white {
-  opacity: 0
+  opacity: 0;
+  height: 50px;
 }
 
 .navbar .navbar-toggle {
@@ -1981,6 +1983,8 @@ h6 {
   -moz-box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .1);
   box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .1)
 }
+
+
 
 .navbar.shrink .header-action-button {
   height: 60px;

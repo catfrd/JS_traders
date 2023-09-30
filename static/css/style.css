@@ -64,52 +64,6 @@
 
 
 
-/*
-  Countdown
-  ---------
-*/
-
-.countdown {
-  -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
-  -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
-  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
-  top: -35px;
-  z-index: 20;
-}
-.countdown .clock {
-  height: 70px;
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .countdown .clock {
-    height: 88px;
-    text-align: right;
-  }
-}
-.countdown .clock-item {
-  color: #ffffff;
-  font-family: "Catamaran", sans-serif;
-  border-radius: 2px;
-  display: inline-block;
-  height: 100%;
-  letter-spacing: 1px;
-  margin-right: 5px;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  width: 60px;
-}
-.countdown .clock-item:last-child {
-  margin-right: 0;
-}
-@media (min-width: 992px) {
-  .countdown .clock-item {
-    margin-right: 7px;
-    width: 75px;
-  }
-}
-
-
 
 /*
   Intro
@@ -123,13 +77,13 @@
   height: 192px;
 }
 #intro .features-box:nth-child(1) .bg-cover {
-  background-image: url("../images/intro-1.jpg");
+  background-image: url("../images/slides/founder.png");
 }
 #intro .features-box:nth-child(2) .bg-cover {
-  background-image: url("../images/intro-2.jpg");
+  background-image: url("../images/slides/managing partner.png");
 }
 #intro .features-box:nth-child(3) .bg-cover {
-  background-image: url("../images/intro-3.jpg");
+  background-image: url("../images/slides/working partner.png");
 }
 
 
@@ -193,7 +147,7 @@
 #schedule .nav-tabs > li.active > a:hover,
 #schedule .nav-tabs > li.active > a:focus {
   background-color: #626262;
-  color: #ffffff;
+  color: #272727;
 }
 #schedule .nav-tabs > li > a {
   color: #272727;
