@@ -91,7 +91,8 @@
 /* worker intro */
 
 .workers {
-  height:700px; 
+  max-height:400px; 
+  min-height: auto;
   width:fit-content;
   /* border-radius: 400px; */
   justify-content: center;
