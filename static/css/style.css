@@ -91,18 +91,24 @@
 /* worker intro */
 
 .workers {
-  height:300px; 
+  height:700px; 
   width:fit-content;
-  border-radius: 400px;
-  margin: 45px;
+  /* border-radius: 400px; */
+  justify-content: center;
+  text-align: center;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: #626262 2px 2px blur;
+
 }
 
 .name{
   color: #fff;
   margin: 45px; 
   position: relative;
-  text-shadow: 2px 2px #626262;
+  
 }
 
 .num{
